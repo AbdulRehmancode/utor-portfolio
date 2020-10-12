@@ -159,7 +159,8 @@ hr {
 .carousel-caption {
   position: absolute;
   right: 115%;
-  bottom: 1px !important;
+  top: 54px;
+  /* bottom: 1px !important; */
   left: 20% !important;
   margin: auto;
   z-index: 10;
