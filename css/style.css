@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+.top-bar {
+    background-color: #2e5c84;
+}
+
+ 
+    .navbar-nav {
+        flex-direction: row;
+      }
+      
+      .nav-link {
+        padding-right: .5rem !important;
+        padding-left: .5rem !important;
+      }
+      
+    
+      .ml-auto .dropdown-menu {
+        left: auto !important;
+        right: 0px;
+      }
+      
+
+
+
+.carousel-item img {
+    height: 520px;
+}
+.card-text {
+  font-size: 16px;
+    color: #7a7878;
+  
+}
+.card-title {
+ 
+  color: #2a74b8;
+  font-size: 20px;
+  font-weight: 700;
+  height: 34px;
+  overflow: hidden;
+  line-height: 18px;
+}
+.footer-text p{
+  width: 950px;
+  margin: auto;
+  text-align: center;
+   
+    display: block;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+}
+.topbar-inner .row p {
+  color: rgb(235, 235, 235);
+  padding-top:8px ;
+  font-size: 13px;
+}
+.number {
+
+  padding-left: 3px;
+  margin-left: 12px;
+
+} 
+
+@font-face {
+  font-family: OpenSans-Light;
+  src: url(../fonts/OpenSans-Light.ttf);
+}
+
+.nav-link {
+  font-weight: bold;
+  color: #bbb5b5;
+  font-family: OpenSans-Light;
+}
+.social-icons {
+margin-left: 12px;
+padding-top: 2px;
+}
+.social-icons i {
+color: white;
+padding-top:px;
+font-size:22px;
+margin: 4px;
+}
+.carousel-caption  p{
+  font-family: OpenSans-Light;
+  font-size: 35px;
+ 
+  margin-bottom: -1px;
+  margin-top: -6px;
+}
+.carousel-caption h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 34px;
+  /* font-weight: 900; */
+  /* border: 2px solid red; */
+}
+.carousel-caption h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 34px;
+  /* font-weight: 900; */
+  /* border: 2px solid red; */
+}
+.carousel-caption {
+    position: absolute;
+    right: 115%;
+    bottom: 190px !important;
+    left: 26% !important;
+    margin: auto;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left !important;
+}
+.custom-btn {
+  border-radius: 22px !important;
+  padding-left: 22px !important;
+  padding-right: 22px !important;
+  font-family: OpenSans-Light;
+  font-size: 12px !important;
+  font-weight: bolder !important;
+
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0,.5);
+  margin-left: 53px;
+} 
+.dropdown-toggle::after {
+  
+
+
+color: rgb(100, 96, 96);
+
+}
+hr {
+  color: red;
+  border: 12px solid red;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-text p {
+    width: 305px;
+  }
+  .carousel-item img {
+    height: 320px;
+}
+.top-bar {
+  display: none;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0,.5);
+  margin-left: 3px;
+}
+.carousel-caption {
+  position: absolute;
+  right: 115%;
+  bottom: 1px !important;
+  left: 20% !important;
+  margin: auto;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 2px;
+  color: #fff;
+  text-align: left !important;
+}
+.custom-btn {
+  font-family: OpenSans-Light;
+  font-size: 9px !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+.carousel-caption h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+.carousel-caption p {
+  font-family: OpenSans-Light;
+  font-size: 19px;
+}
+}
