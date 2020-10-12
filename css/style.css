@@ -106,7 +106,7 @@ margin: 4px;
     position: absolute;
     right: 115%;
     bottom: 190px !important;
-    left: 26% !important;
+    left: 13% !important;
     margin: auto;
     z-index: 10;
     padding-top: 20px;
@@ -127,9 +127,12 @@ margin: 4px;
   color: rgba(0,0,0,.5);
   margin-left: 53px;
 } 
+.topbar-inner {
+  margin-right: 38px;
+}
+
 .dropdown-toggle::after {
   
-
 
 color: rgb(100, 96, 96);
 
