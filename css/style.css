@@ -123,9 +123,14 @@ margin: 4px;
   font-weight: bolder !important;
 
 }
+.divider {
+  border-left:1px solid #587d9d;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0,0,0,.5);
-  margin-left: 53px;
+  margin-left: 40px;
 } 
 .topbar-inner {
   margin-right: 38px;
